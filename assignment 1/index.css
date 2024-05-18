@@ -1,0 +1,173 @@
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: blue;
+}
+.nav-link {
+    display: block;
+    font-size:16px;
+    font-weight: 1000;
+    color: #e9ecef;
+    text-decoration: none;
+    background: 0 0;
+    font-family: 'Inter';
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    font: bold;
+}
+.btn {
+    display: inline-block;
+    padding: 3px 10px; /* Adjust padding to reduce height */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color:cyan; 
+    color: white;
+  }
+
+  .btn a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .btn svg {
+    margin-left: 5px; 
+  }
+  .btn a:hover {
+    text-decoration: none;
+  }
+.hero-container h1{
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: bolder;
+    color: cyan;
+}
+.hero-container h5{
+    font-family: 'Inter';
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+   
+}
+.hero-container p{
+    font-family: 'Inter';
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate
+}
+.hero-container{
+    display: block;
+    unicode-bidi: isolate
+}
+.hero h1{
+    font-family: 'Inter';
+    font-size: 45px;
+    font-weight: bolder;
+}
+.project-title {
+    color: cyan;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Inter';
+}
+.project-details p{
+    color: white;
+    font-family: 'Inter';
+}
+.list-group
+{
+    color: white;
+}
+.project-details h4{
+    color: cyan;
+    font-size: 30px;
+}
+.tech-btn{
+    background-color: rgb(144, 142, 142);
+    color: white;
+    font: bold;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 4px;
+}
+.comfortbale{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter';
+}
+.education h1{
+    color: cyan;
+    font-size: 45px;
+    font-family: 'Inter';
+}
+.education h5{
+ color: white;
+ font-size: 20px;
+ font-family: 'Inter';
+}
+.education p{
+ color: white;
+ font-size: 20px;
+ font-family: 'Inter';
+}
+.contact h1{
+    color: white;
+    font-family: 'Inter';
+
+}
+.contact-form {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px blue;
+    color: #fff;
+    font-family: 'Inter';
+}
+.input-item {
+    padding: 14px;
+    margin: 10px;
+    background: none;
+    outline: none;
+    color: #fff;
+    box-shadow: 4px 4px 8px blue;
+    font-family: 'Inter';
+}
+.textarea {
+    padding: 34px;
+    margin: 10px;
+    background: none;
+    outline: none;
+    box-shadow: 4px 4px 8px blue;
+    font-family: 'Inter';
+}
+.submit-btn{
+    background-color: #6c757d;
+    width: 50%;
+    color: cyan;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px cyan;
+    font-family: 'Inter';
+}
+.footer p{
+    color: white;
+    font-family: 'Inter';
+}
+.i{
+    font-size: 30px;
+    color: cyan;
+}
